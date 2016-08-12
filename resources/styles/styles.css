@@ -3,6 +3,7 @@
 }
 
 
+
 #wrap:after {
   content: "\f0f5";
   font-family: FontAwesome;
@@ -11,7 +12,7 @@
   text-decoration: inherit;
   position: absolute;
   font-size: 400px;
-  color: lightblue;
+  color: lightgrey;
   top: 50%;
   left: 50%;
   margin: -300px 0 0 -200px;
@@ -36,11 +37,19 @@
 .hero-unit h2 {
     font-size: 25px;
     color: #FFFFFF;
-
 }
 .fill{
   width:100%;
   height:350px;
   background-position:center;
   background-size:cover;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.meal-form {
+  margin-top: 40px;
 }
