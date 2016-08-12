@@ -19,10 +19,12 @@ import {HealthynessPipe} from './healthyness.pipe';
         <option value="healthy">Show healthy meals</option>
         <option value="unhealthy">Show not so healthy meals</option>
       </select>
-      <meal-display *ngFor="#currentMeal of mealList | healthyness:selectedHealthyness" (click)="mealClicked(currentMeal)"
-      [meal] = "currentMeal"
-      [class.healthy]="currentMeal.calories <= 500"
-      [class.unhealthy]="currentMeal.calories >500">
+      <meal-display
+        *ngFor="#currentMeal of mealList | healthyness:selectedHealthyness"
+        (click)="mealClicked(currentMeal)"
+        [meal] = "currentMeal"
+        [class.healthy]="currentMeal.calories <= 500"
+        [class.unhealthy]="currentMeal.calories >500">
       </meal-display>
     </div>
     <div class="col-md-6">
