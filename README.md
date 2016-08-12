@@ -8,7 +8,6 @@ This app is a Meal Tracker made for the Epicodus JavaScript course (Week 2 Code 
 
 The app allows a user to enter in a food item, a description and the amount of calories. The user can also edit this information after it has been inputted. Foods that are unhealthy (over 500 calories) are shown in yellow, while those that are healthy (under 500 calories) are shown in green. The user can also filter the inputted meals in order to see all meals, only healthy meals, or only unhealthy meals.
 
-
 ## Technologies Used
 * Angularjs
 * JavaScript
@@ -29,6 +28,8 @@ $ npm install; bower install
 ```
 $ gulp build; gulp serve
 ```
+
+![screen shot of the meal tracker app](meal_tracker_app.png "Screen Shot of the Meal Tracker App")
 
 
 #### License
