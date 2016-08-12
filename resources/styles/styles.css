@@ -29,14 +29,18 @@
   }
 .hero-unit h1 {
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 100px;
     letter-spacing: -1px;
     line-height: 1;
+    margin-top: 1em;
     margin-bottom: 0;
+    font-family: 'Rubik Mono One', sans-serif;
+
 }
 .hero-unit h2 {
-    font-size: 25px;
+    font-size: 30px;
     color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 .fill{
   width:100%;
@@ -48,6 +52,7 @@
 p {
   font-size: 1.5em;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
