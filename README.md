@@ -1,4 +1,4 @@
-# :spaghetti:_Meal Tracker_:pineapple:
+# :icecream::hamburger::spaghetti:_Meal Tracker_:pineapple::green_apple::corn:
 
 ##### _8/11/2016_
 
