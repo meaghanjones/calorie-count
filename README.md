@@ -29,6 +29,7 @@ $ npm install; bower install
 $ gulp build; gulp serve
 ```
 
+## Screen Shot of the main page of the Meal Tracker App
 ![screen shot of the meal tracker app](meal_tracker_app.png "Screen Shot of the Meal Tracker App")
 
 
